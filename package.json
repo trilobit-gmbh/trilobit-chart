@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chart.js": "^3.5.1"
+  },
+  "scripts": {
+    "copy": "rm -rf dist && cp -ru \"node_modules/chart.js/dist/\" \"dist/\" && cp -u \"node_modules/chart.js/README.md\" \"dist/\""
+  }
+}
